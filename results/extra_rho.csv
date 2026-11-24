@@ -1,0 +1,23 @@
+Method,Importance,rho
+RF baseline (IKADO config),Gini,0.9999999999999999
+RF baseline (IKADO config),OOF permutation,0.9999999999999999
+RF tuned (nested CV),Gini,0.9076923076923077
+RF class_weight=balanced,Gini,0.874188034188034
+RF class_weight=balanced,OOF permutation,0.6676923076923077
+RF + prior-corrected threshold,Gini,0.9999999999999999
+RF + prior-corrected threshold,OOF permutation,0.37435897435897436
+ROS,Gini,0.8475213675213674
+SMOTE,Gini,0.788034188034188
+SMOTE,OOF permutation,0.39829059829059826
+SMOTE-NC,Gini,0.6676923076923077
+SMOTE-NC,OOF permutation,0.3606837606837607
+Borderline-SMOTE-1,Gini,0.8017094017094016
+ADASYN,Gini,0.7811965811965812
+MC-NRO (paper-faithful),Gini,0.8105982905982906
+MC-NRO (paper-faithful),OOF permutation,0.43111111111111106
+MC-NRO + quantile repartition,Gini,0.604102564102564
+MC-NRO + majority-vote cleaning,Gini,0.8283760683760684
+MC-NRO + ordinal projection,Gini,0.8037606837606838
+A-NRO without ordinal projection,Gini,0.6054700854700855
+A-NRO (full),Gini,0.7921367521367522
+A-NRO (full),OOF permutation,0.26017094017094017
